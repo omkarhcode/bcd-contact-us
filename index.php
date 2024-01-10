@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style/global.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/section.css">
-
 </head>
 
 <body id="body">
@@ -29,8 +28,6 @@
             <a class="" href="#">NEWS & THOUGHTS</a>
             <a class="" href="#">CONTACT</a>
         </nav>
-        <!-- add line -->
-        <!-- <div class="line"></div> -->
     </header>
 
 
@@ -56,7 +53,7 @@
                     <option value="project1">Project 1</option>
                     <option value="project2">Project 2</option>
                 </select>
-                <button type="submit">Submit</button>
+                <button type="submit">Send</button>
             </form>
         </div>
         <div class="map-container">

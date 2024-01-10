@@ -56,6 +56,21 @@
   border-bottom: 1px solid black;
   transition: 0.5s;
 }
+
+#contact-form button[type="submit"] {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 14px;
+  width: fit-content;
+  float: right;
+  background-color: #3971b1;
+  color: white;
+  padding: 15px 70px;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
 /* BREAKPOINTS */
 @media (max-width: 992px) {
 }
