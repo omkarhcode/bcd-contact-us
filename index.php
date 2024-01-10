@@ -132,13 +132,12 @@
                 <p>© copyrights <?php echo date("Y"); ?></p>
             </div>
             <div class="flex-item">
-                <div class="social-icons">
-                    <li><a href="https://www.facebook.com" target="_blank"><img src="assets/social-icons/facebook.svg" alt="" id="facebook"></a></li>
-                    <li><a href="https://www.instagram.com" target="_blank"><img src="assets/social-icons/instagram.svg" alt="" id="instagram"></a></li>
-                    <li><a href="https://www.linkedin.com" target="_blank"><img src="assets/social-icons/linkedin.svg" alt="" id="linkedin"></a></li>
-                    <li><a href="https://www.twitter.com" target="_blank"><img src="assets/social-icons/twitter.svg" alt="" id="twitter"></a></li>
-                    <li><a href="https://www.youtube.com" target="_blank"><img src="assets/social-icons/youtube.svg" alt="" id="youtube"></a></li>
-                </div>
+                <a href="https://www.facebook.com" target="_blank"><img src="assets/social-icons/facebook.svg" alt="" id="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="assets/social-icons/instagram.svg" alt="" id="instagram"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="assets/social-icons/linkedin.svg" alt="" id="linkedin"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="assets/social-icons/twitter.svg" alt="" id="twitter"></a>
+                <a href="https://www.youtube.com" target="_blank"><img src="assets/social-icons/youtube.svg" alt="" id="youtube"></a>
+
             </div>
 
 
