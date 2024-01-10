@@ -24,7 +24,7 @@
 }
 
 .header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -42,7 +42,7 @@
   border: 1px solid #e6e6e6;
   position: absolute;
   width: 100%;
-  top: 100%;
+  top: 0;
 }
 
 .header a.logo {
