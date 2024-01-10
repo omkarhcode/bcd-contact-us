@@ -133,6 +133,9 @@
 
 /* BREAKPOINTS */
 @media (max-width: 992px) {
+  #footer {
+    margin-top: 60px;
+  }
   #footer .flex-container,
   #footer #bottom-bar {
     padding-left: 20px;
