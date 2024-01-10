@@ -18,6 +18,38 @@
   width: 100%;
   height: auto;
 }
+
+.section h3 {
+  padding-bottom: 70px;
+}
+/* Form */
+.section form {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.section form input,
+.section form select {
+  color: #8e8e8e;
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+  font-size: 16px;
+  line-height: 32px;
+  padding: 0px 25px 25px;
+}
+
+.section select {
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
+  background: url("../assets/dropdown-arrow.svg") no-repeat right; /* Add custom arrow */
+
+  padding-right: 20px; /* Adjust as needed */
+
+  background-size: 15px 15px; /* Adjust as needed */
+}
+
 /* BREAKPOINTS */
 @media (max-width: 992px) {
 }
