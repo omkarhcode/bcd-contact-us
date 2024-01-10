@@ -21,6 +21,28 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "Museo_Slab", sans-serif;
+  color: #3c3c3c;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 54px;
+}
+
+h3 {
+  color: #3971b1;
+  font-size: 26px;
+  line-height: 54px;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+p {
+  color: #646464;
+  font-size: 22px;
+  line-height: 44px;
+  font-weight: 100;
 }
 
 .header {
@@ -101,7 +123,13 @@
 .section .map-container {
   flex: 1;
 }
+.section .contact-us-container {
+  padding: 100px;
+}
 
+.section .contact-us-container p {
+  padding: 70px 0 100px;
+}
 .section .map-container .map {
   width: 100%;
   height: auto;
