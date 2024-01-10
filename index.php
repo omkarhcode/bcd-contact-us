@@ -97,16 +97,15 @@
                 <a href="#" class="logo">LOGO</a>
             </div>
             <div class="flex-item-2">
-                <div class="links">
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">NRI Area</a></li>
-                    <li><a href="#">News & Thoughts</a></li>
-                    <li><a href="#">Employee Corner</a></li>
-                    <li><a href="#">CSR</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Disclaimer</a></li>
-                </div>
+                <div><a href="#">Projects</a></div>
+                <div><a href="#">About</a></div>
+                <div><a href="#">NRI Area</a></div>
+                <div><a href="#">News & Thoughts</a></div>
+                <div><a href="#">Employee Corner</a></div>
+                <div><a href="#">CSR</a></div>
+                <div><a href="#">Contact</a></div>
+                <div><a href="#">Disclaimer</a></div>
+
 
             </div>
             <div class="flex-item-3">
