@@ -23,14 +23,14 @@
   padding-bottom: 70px;
 }
 /* Form */
-.section form {
+.section #contact-form {
   display: flex;
   flex-direction: column;
   gap: 70px;
 }
 
-.section form input,
-.section form select {
+.section #contact-form input,
+.section #contact-form select {
   color: #8e8e8e;
   border: none;
   border-bottom: 1px solid #d3d3d3;
@@ -40,7 +40,7 @@
   transition: 0.5s;
 }
 
-.section select {
+.section #contact-form select {
   appearance: none; /* Remove default arrow */
   -webkit-appearance: none; /* For Safari */
   -moz-appearance: none; /* For Firefox */
@@ -50,8 +50,8 @@
   background-position-y: 10px;
 }
 
-.section form input:focus,
-.section form select:focus {
+.section #contact-form input:focus,
+.section #contact-form select:focus {
   outline: none;
   border-bottom: 1px solid black;
   transition: 0.5s;
