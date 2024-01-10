@@ -38,6 +38,15 @@ h3 {
   font-weight: 300;
   letter-spacing: 0;
 }
+
+h4 {
+  color: #383838;
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+
 p {
   color: #646464;
   font-size: 22px;
