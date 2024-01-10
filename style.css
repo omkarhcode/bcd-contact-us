@@ -92,6 +92,20 @@
   cursor: pointer;
 }
 
+/* SECTION  */
+.section {
+  display: flex;
+}
+
+.section .contact-us-container,
+.section .map-container {
+  flex: 1;
+}
+
+.section .map-container .map {
+  width: 100%;
+  height: auto;
+}
 /* BREAKPOINTS */
 @media (max-width: 992px) {
   .header {
@@ -145,5 +159,9 @@
     display: block;
     text-align: center;
     margin: 50px 0 !important;
+  }
+
+  .section {
+    flex-direction: column;
   }
 }

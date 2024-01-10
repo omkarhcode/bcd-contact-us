@@ -27,8 +27,23 @@
             <a class="" href="#">NEWS & THOUGHTS</a>
             <a class="" href="#">CONTACT</a>
         </nav>
+        <!-- add line -->
+        <!-- <div class="line"></div> -->
     </header>
 
+
+
+    <section class="section">
+        <div class="contact-us-container">
+            <h1>contact us form below</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </div>
+        <div class="map-container">
+            <img src="assets/map.png" alt="" class="map">
+            <h1>Map details</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </div>
+    </section>
 
 
 
