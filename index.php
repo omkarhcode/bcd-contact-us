@@ -61,15 +61,26 @@
             <img src="assets/map.png" alt="" class="map">
             <div class="text-container">
                 <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h4>
-                <p>+91 000 0000 000 | test1@gmail.com | test2@gmail.com</p>
+                <p class="links">
+                    <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a> |
+                    <a href="mailto:test1@gmail.com" target="_blank">test1@gmail.com</a> |
+                    <a href="mailto:test2@gmail.com" target="_blank">test2@gmail.com</a>
+                </p>
 
                 <h3>Sales Enquiry</h3>
-                <a href="">+91 000 0000 000 </a>
-                <a href="">test1@gmail.com</a>
+                <p class="links">
+                    <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a>
+                    <br>
+                    <a href="mailto:test1@gmail.com" target="_blank">test1@gmail.com</a>
+                </p>
+
 
                 <h3>Redevelopment Centre</h3>
-                <a href="">+91 000 0000 000 </a>
-                <a href="">test2@gmail.com</a>
+                <p class="links">
+                    <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a>
+                    <br>
+                    <a href="mailto:test2@gmail.com" target="_blank">test2@gmail.com</a>
+                </p>
             </div>
 
 

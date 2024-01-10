@@ -7,8 +7,7 @@
 .section .map-container {
   flex: 1;
 }
-.section .contact-us-container,
-.section .map-container .text-container {
+.section .contact-us-container {
   padding: 100px;
 }
 
@@ -75,6 +74,27 @@
 .section .vl {
   margin: 150px 0px !important;
   border-left: 1px solid #f0f0f0;
+}
+
+.section .map-container .text-container {
+  padding: 0 100px;
+}
+
+.section .map-container .text-container h4 {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.section .map-container .text-container h3 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.section .map-container .text-container p.links,
+.section .map-container .text-container p.links a {
+  font-size: 16px;
+  line-height: 32px;
+  color: #8e8e8e;
 }
 
 /* BREAKPOINTS */
