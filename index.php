@@ -110,14 +110,14 @@
 
             </div>
             <div class="flex-item-3">
-                <div class="social-links">
-                    <p>Get the latest news</p>
-                    <form>
-                        <input type="email" id="email" name="email" placeholder="Enter Email" required>
-                        <button type="submit">Subscribe</button>
-                    </form>
 
-                </div>
+                <p>Get the latest news</p>
+                <form id="subscription">
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+
+
 
 
             </div>

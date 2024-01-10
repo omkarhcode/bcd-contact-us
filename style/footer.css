@@ -22,6 +22,48 @@
   padding-top: 10px;
 }
 
+#footer .flex-container .flex-item-3 p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #818181;
+  letter-spacing: 0;
+  margin-bottom: 20px;
+}
+
+#footer .flex-container .flex-item-3 form#subscription input {
+  display: block;
+  background: white;
+  border: none;
+  color: #818181;
+  font-family: "Helvetica Neue", sans-serif;
+  letter-spacing: 0;
+  font-size: 14px;
+  /* line-height: 32px; */
+  font-weight: 400;
+  text-decoration: none;
+  padding: 12px 11px;
+  margin-bottom: 20px;
+  width: 272px;
+}
+
+#footer .flex-container .flex-item-3 form#subscription input:focus {
+  outline: none;
+  border: 0.6px solid #3971b1;
+}
+
+#footer .flex-container .flex-item-3 form#subscription button[type="submit"] {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 14px;
+  width: fit-content;
+  background-color: #3971b1;
+  color: white;
+  padding: 14px 40px;
+  border: none;
+  cursor: pointer;
+}
+
 #footer #bottom-bar {
   background: #f4f4f4;
   display: flex;
