@@ -35,8 +35,9 @@
 
     <section class="section">
         <div class="contact-us-container">
-            <h1>contact us form below</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+            <h2>Contact Us</h2>
+            <p>When we aren’t changing landscapes, we’re making headlines.</p>
+            <h3>Send us an Enquiry</h3>
         </div>
         <div class="map-container">
             <img src="assets/map.png" alt="" class="map">
