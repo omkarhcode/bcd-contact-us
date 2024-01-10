@@ -38,6 +38,25 @@
             <h2>Contact Us</h2>
             <p>When we aren’t changing landscapes, we’re making headlines.</p>
             <h3>Send us an Enquiry</h3>
+
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="mobile">Mobile:</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Your Mobile" required>
+
+                <label for="project">Project:</label>
+                <select id="project" name="project" required>
+                    <option value="" selected disabled>Select Project</option>
+                    <option value="project1">Project 1</option>
+                    <option value="project2">Project 2</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
         </div>
         <div class="map-container">
             <img src="assets/map.png" alt="" class="map">
