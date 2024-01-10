@@ -1,0 +1,28 @@
+/* SECTION  */
+.section {
+  display: flex;
+}
+
+.section .contact-us-container,
+.section .map-container {
+  flex: 1;
+}
+.section .contact-us-container {
+  padding: 100px;
+}
+
+.section .contact-us-container p {
+  padding: 70px 0 100px;
+}
+.section .map-container .map {
+  width: 100%;
+  height: auto;
+}
+/* BREAKPOINTS */
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+  }
+}
