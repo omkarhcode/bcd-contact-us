@@ -56,18 +56,21 @@
                 <button type="submit">Send</button>
             </form>
         </div>
+        <div class="vl"></div>
         <div class="map-container">
             <img src="assets/map.png" alt="" class="map">
-            <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h4>
-            <p>+91 000 0000 000 | test1@gmail.com | test2@gmail.com</p>
+            <div class="text-container">
+                <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h4>
+                <p>+91 000 0000 000 | test1@gmail.com | test2@gmail.com</p>
 
-            <h3>Sales Enquiry</h3>
-            <a href="">+91 000 0000 000 </a>
-            <a href="">test1@gmail.com</a>
+                <h3>Sales Enquiry</h3>
+                <a href="">+91 000 0000 000 </a>
+                <a href="">test1@gmail.com</a>
 
-            <h3>Redevelopment Centre</h3>
-            <a href="">+91 000 0000 000 </a>
-            <a href="">test2@gmail.com</a>
+                <h3>Redevelopment Centre</h3>
+                <a href="">+91 000 0000 000 </a>
+                <a href="">test2@gmail.com</a>
+            </div>
 
 
     </section>

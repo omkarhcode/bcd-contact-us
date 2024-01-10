@@ -7,7 +7,8 @@
 .section .map-container {
   flex: 1;
 }
-.section .contact-us-container {
+.section .contact-us-container,
+.section .map-container .text-container {
   padding: 100px;
 }
 
@@ -69,6 +70,11 @@
   border: none;
   cursor: pointer;
   margin-left: auto;
+}
+
+.section .vl {
+  margin: 150px 0px !important;
+  border-left: 1px solid #f0f0f0;
 }
 
 /* BREAKPOINTS */
