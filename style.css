@@ -37,12 +37,13 @@
   backdrop-filter: blur(10px); */
 }
 
-.header::before {
+.header::after {
   content: "";
-  border: 1px solid #e6e6e6;
   position: absolute;
-  width: 100%;
-  top: 0;
+  left: 100px;
+  bottom: 0;
+  width: calc(100% - 200px);
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .header a.logo {
@@ -95,6 +96,11 @@
 @media (max-width: 992px) {
   .header {
     padding: 20px;
+  }
+
+  .header::after {
+    left: 20px;
+    width: calc(100% - 40px);
   }
 
   .header nav a:not(:last-child) {
