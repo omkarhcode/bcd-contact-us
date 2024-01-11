@@ -13,7 +13,9 @@
     url("../fonts/Museo_Slab_1000.otf") format("opentype"),
     url("../fonts/Museo_Slab_1000italic.otf") format("opentype");
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
 }
@@ -81,6 +83,33 @@ a:hover {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   transition: 0.5s;
 }
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: none;
+  background-color: transparent;
+  transition: transform 0.3s ease-in-out;
+}
+
+#scrollToTopBtn p {
+  font-family: "Helvetica Neue", sans-serif;
+  letter-spacing: 0;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+}
+#scrollToTopBtn:hover {
+  box-shadow: none;
+  transform: translateY(-5px);
+}
+
 /* GENERIC */
 
 .header a.logo,

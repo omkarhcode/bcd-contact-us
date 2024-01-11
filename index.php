@@ -13,6 +13,11 @@
 </head>
 
 <body id="body">
+    <button onclick="topFunction()" id="scrollToTopBtn" title="Go to top">
+        <img src="assets/scrollToTop.svg" alt="to top">
+        <p>To the top</p>
+    </button>
+
 
     <header class="header">
         <a href="#" class="logo">LOGO</a>
@@ -180,6 +185,9 @@
     <script src="js/select.js"></script>
     <script src="js/map.js"></script>
     <script src="js/form.js"></script>
+    <script src="js/scrollToTop.js"></script>
+
+
 
 </body>
 
