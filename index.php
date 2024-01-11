@@ -65,6 +65,8 @@
 
             <div class="absolute-container">
                 <img src="assets/map.png" alt="" class="map">
+                <img src="assets/pointer.svg" alt="" class="pointer">
+
                 <div class="text-container">
                     <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h4>
                     <p class="links">
@@ -156,6 +158,18 @@
             var placeholder = document.querySelector('.absolute-container-placeholder');
 
             placeholder.style.height = window.getComputedStyle(absoluteContainer).height;
+
+
+            var map = document.querySelector('.map');
+            var pointer = document.querySelector('.pointer');
+
+            // Calculate the position of the pointer based on the size of the map
+            var top = map.offsetHeight * 0.605;
+            var left = map.offsetWidth * 0.303;
+
+            // Update the position of the pointer
+            pointer.style.top = top + 'px';
+            pointer.style.left = left + 'px';
         }
 
         window.onresize = function() {
@@ -163,6 +177,18 @@
             var placeholder = document.querySelector('.absolute-container-placeholder');
 
             placeholder.style.height = window.getComputedStyle(absoluteContainer).height;
+
+            // Add your new functionality here
+            var map = document.querySelector('.map');
+            var pointer = document.querySelector('.pointer');
+
+            // Calculate the position of the pointer based on the size of the map
+            var top = map.offsetHeight * 0.605;
+            var left = map.offsetWidth * 0.303;
+
+            // Update the position of the pointer
+            pointer.style.top = top + 'px';
+            pointer.style.left = left + 'px';
         }
     </script>
 </body>

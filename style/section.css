@@ -33,6 +33,12 @@
   height: auto;
 }
 
+.section .map-container .pointer {
+  position: absolute;
+  height: 38px;
+  width: 38px;
+}
+
 .section h3 {
   padding-bottom: 70px;
 }
