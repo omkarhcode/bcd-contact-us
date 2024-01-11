@@ -3,9 +3,14 @@
   display: flex;
 }
 
-.section .contact-us-container,
+/* .section .contact-us-container,
 .section .map-container {
   flex: 1;
+} */
+.section .contact-us-container,
+.section .map-container {
+  width: 50%;
+  box-sizing: border-box;
 }
 .section .contact-us-container {
   padding: 100px;
