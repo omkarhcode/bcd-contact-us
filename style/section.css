@@ -114,6 +114,7 @@
 .section .map-container .text-container .links a {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 16px;
+  font-weight: normal;
   line-height: 32px;
   color: #8e8e8e;
   letter-spacing: 0;

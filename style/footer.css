@@ -119,8 +119,18 @@
   gap: 15px;
 }
 
+#footer #bottom-bar .flex-item a:hover {
+  box-shadow: none;
+}
 #footer #bottom-bar .flex-item a img {
   height: 20px;
+  transition: 0.5s;
+}
+
+#footer #bottom-bar .flex-item a:hover img {
+  box-shadow: #3971b1 0px 0px 17px 0px;
+  background: rgb(57, 113, 177, 0.3);
+  transition: 0.5s;
 }
 
 #footer #bottom-bar .flex-item p {
