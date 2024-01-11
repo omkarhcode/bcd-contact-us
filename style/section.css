@@ -47,29 +47,19 @@
   gap: 70px;
 }
 
-.section #contact-form input,
-.section #contact-form select {
+.section #contact-form input {
   color: #8e8e8e;
   border: none;
   border-bottom: 1px solid #d3d3d3;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
   font-size: 16px;
   line-height: 32px;
   padding: 0px 25px 25px;
   transition: 0.5s;
 }
 
-.section #contact-form select {
-  appearance: none; /* Remove default arrow */
-  -webkit-appearance: none; /* For Safari */
-  -moz-appearance: none; /* For Firefox */
-  background: url("../assets/dropdown-arrow.svg") no-repeat right;
-  background-size: 16px 12px;
-  background-position: right 25px center;
-  background-position-y: 10px;
-}
-
-.section #contact-form input:focus,
-.section #contact-form select:focus {
+.section #contact-form input:focus {
   outline: none;
   border-bottom: 1px solid black;
   transition: 0.5s;
@@ -118,6 +108,79 @@
 .section .map-container .absolute-container {
   position: absolute;
   top: 0;
+}
+
+/* SELECT  */
+.custom-select {
+  position: relative;
+  width: 100%;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 30px;
+  right: 25px;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-color: #3971b1 transparent transparent transparent;
+  transition: 0.2s;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #3971b1 transparent;
+  top: 20px;
+  transition: 0.2s;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #8e8e8e;
+
+  padding: 25px 25px;
+  border: 1px solid transparent;
+  border-color: transparent transparent #d3d3d3 transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #fafafa;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+  transition: 0.5s;
+}
+
+.select-items div:hover {
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.same-as-selected::after {
+  content: url("../assets/selected.svg");
+  position: absolute;
+  right: 20px;
 }
 
 /* BREAKPOINTS */

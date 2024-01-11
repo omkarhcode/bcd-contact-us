@@ -49,11 +49,19 @@
                 <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number" required>
 
 
-                <select id="project" name="project" required>
-                    <option value="" selected disabled>Select Project</option>
-                    <option value="project1">Project 1</option>
-                    <option value="project2">Project 2</option>
-                </select>
+
+                <div class="custom-select">
+                    <select id="project" name="project" required>
+                        <option value="0">Select Project:</option>
+                        <option value="1">Project 1</option>
+                        <option value="2">Project 2</option>
+                        <option value="3">Project 3</option>
+                        <option value="4">Project 4</option>
+                        <option value="5">Project 5</option>
+                        <option value="6">Project 6</option>
+                    </select>
+                </div>
+
                 <button type="submit">Send</button>
             </form>
         </div>
@@ -151,6 +159,8 @@
 
         </section>
     </footer>
+
+    <script src="js/select.js"></script>
     <script>
         // dynamically setting the height of the placeholder to match the height of the .absolute-container.
         window.onload = function() {
