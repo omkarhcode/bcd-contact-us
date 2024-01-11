@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/section.css">
     <link rel="stylesheet" href="style/footer.css">
+
 </head>
 
 <body id="body">
@@ -41,15 +42,8 @@
             <form id="contact-form">
                 <!-- <label for="name">Name:</label> -->
                 <input type="text" id="name" name="name" placeholder="Name" required>
-
-
                 <input type="email" id="email" name="email" placeholder="Email Address" required>
-
-
                 <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number" required>
-
-
-
                 <div class="custom-select">
                     <select id="project" name="project" required>
                         <option value="0">Select Project:</option>
@@ -61,9 +55,9 @@
                         <option value="6">Project 6</option>
                     </select>
                 </div>
-
                 <button type="submit">Send</button>
             </form>
+
         </div>
         <div class="vl"></div>
         <div class="map-container">
@@ -85,6 +79,28 @@
                         </p>
                     </div>
 
+                    <div id="myForm" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeForm()"><img src="assets/close.png" alt="" id="close"></a>
+
+                        <form id="contact-form">
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                            <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                            <div class="custom-select">
+                                <select id="project" name="project" required>
+                                    <option value="0">Select Project:</option>
+                                    <option value="1">Project 1</option>
+                                    <option value="2">Project 2</option>
+                                    <option value="3">Project 3</option>
+                                    <option value="4">Project 4</option>
+                                    <option value="5">Project 5</option>
+                                    <option value="6">Project 6</option>
+                                </select>
+                            </div>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                    <button type="button" class="send-enquiry-btn" onclick="openForm()">Send us an Enquiry</button>
                     <h3>Sales Enquiry</h3>
                     <p class="links">
                         <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a>
@@ -164,6 +180,13 @@
 
     <script src="js/select.js"></script>
     <script>
+        function openForm() {
+            document.getElementById("myForm").style.width = "100%";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.width = "0%";
+        }
         // dynamically setting the height of the placeholder to match the height of the .absolute-container.
         window.onload = function() {
             var absoluteContainer = document.querySelector('.absolute-container');
