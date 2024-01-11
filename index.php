@@ -59,7 +59,9 @@
         </div>
         <div class="vl"></div>
         <div class="map-container">
-            <div class="absolute-container-placeholder"></div>
+            <div class="absolute-container-placeholder">
+                <p>Lorem ipsum dolor sit amet - consetetur sadipscing elitr</p>
+            </div>
 
             <div class="absolute-container">
                 <img src="assets/map.png" alt="" class="map">

@@ -14,6 +14,20 @@
 .section .contact-us-container p {
   padding: 70px 0 100px;
 }
+
+.section .map-container .absolute-container-placeholder {
+  position: relative;
+  z-index: 1;
+}
+.section .map-container .absolute-container-placeholder p {
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 100px;
+  color: #afafaf;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+}
 .section .map-container .map {
   width: 100%;
   height: auto;
