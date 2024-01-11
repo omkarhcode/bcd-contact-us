@@ -47,12 +47,12 @@
                 <div class="custom-select">
                     <select id="project" name="project" required>
                         <option value="0">Select Project:</option>
-                        <option value="1">Project 1</option>
-                        <option value="2">Project 2</option>
-                        <option value="3">Project 3</option>
-                        <option value="4">Project 4</option>
-                        <option value="5">Project 5</option>
-                        <option value="6">Project 6</option>
+                        <option value="project 1">Project 1</option>
+                        <option value="project 2">Project 2</option>
+                        <option value="project 3">Project 3</option>
+                        <option value="project 4">Project 4</option>
+                        <option value="project 5">Project 5</option>
+                        <option value="project 6">Project 6</option>
                     </select>
                 </div>
                 <button type="submit">Send</button>
@@ -89,12 +89,12 @@
                             <div class="custom-select">
                                 <select id="project" name="project" required>
                                     <option value="0">Select Project:</option>
-                                    <option value="1">Project 1</option>
-                                    <option value="2">Project 2</option>
-                                    <option value="3">Project 3</option>
-                                    <option value="4">Project 4</option>
-                                    <option value="5">Project 5</option>
-                                    <option value="6">Project 6</option>
+                                    <option value="project 1">Project 1</option>
+                                    <option value="project 2">Project 2</option>
+                                    <option value="project 3">Project 3</option>
+                                    <option value="project 4">Project 4</option>
+                                    <option value="project 5">Project 5</option>
+                                    <option value="project 6">Project 6</option>
                                 </select>
                             </div>
                             <button type="submit">Send</button>
@@ -192,6 +192,7 @@
 
     <script src="js/select.js"></script>
     <script src="js/map.js"></script>
+    <script src="js/form.js"></script>
 
 </body>
 
