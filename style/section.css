@@ -91,6 +91,8 @@
 
 .section .map-container .text-container {
   padding: 0 100px;
+  position: relative;
+  z-index: 2;
 }
 
 .section .map-container .text-container h4 {
@@ -103,11 +105,18 @@
   padding-bottom: 30px;
 }
 
-.section .map-container .text-container p.links,
-.section .map-container .text-container p.links a {
+.section .map-container .text-container .links .contacts p {
+  display: none;
+}
+
+.section .map-container .text-container .links,
+.section .map-container .text-container .links .contacts p,
+.section .map-container .text-container .links a {
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 32px;
   color: #8e8e8e;
+  letter-spacing: 0;
 }
 
 .section .map-container .absolute-container {
@@ -281,7 +290,9 @@
   .section .map-container .map {
     width: 190%;
   }
-
+  .section .map-container .text-container {
+    position: static;
+  }
   .section .text-container .mobile-absolute {
     position: absolute;
     top: 125px;
@@ -313,5 +324,18 @@
     border: none;
     cursor: pointer;
     margin: 50px 0 70px 0;
+  }
+
+  .section .map-container .text-container .links .contacts p {
+    display: inline-block;
+  }
+
+  .section .map-container .text-container .links .contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 25px 0;
   }
 }

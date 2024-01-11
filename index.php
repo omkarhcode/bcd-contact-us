@@ -102,19 +102,31 @@
                     </div>
                     <button type="button" class="send-enquiry-btn" onclick="openForm()">Send us an Enquiry</button>
                     <h3>Sales Enquiry</h3>
-                    <p class="links">
-                        <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a>
-                        <br>
-                        <a href="mailto:test1@gmail.com" target="_blank">test1@gmail.com</a>
-                    </p>
+                    <div class="links">
+                        <div class="contacts">
+                            <p>Phone</p><a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a>
+                        </div>
+
+
+                        <div class="contacts">
+                            <p>Email</p>
+                            <a href="mailto:test1@gmail.com" target="_blank">test1@gmail.com</a>
+                        </div>
+                    </div>
 
 
                     <h3>Redevelopment Centre</h3>
-                    <p class="links">
-                        <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a>
-                        <br>
-                        <a href="mailto:test2@gmail.com" target="_blank">test2@gmail.com</a>
-                    </p>
+                    <div class="links">
+                        <div class="contacts">
+                            <p>Phone</p>
+                            <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a>
+                        </div>
+
+                        <div class="contacts">
+                            <p>Email</p>
+                            <a href="mailto:test2@gmail.com" target="_blank">test2@gmail.com</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
