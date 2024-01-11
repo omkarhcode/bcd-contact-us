@@ -97,6 +97,11 @@
   color: #8e8e8e;
 }
 
+.section .map-container .absolute-container {
+  position: absolute;
+  top: 0;
+}
+
 /* BREAKPOINTS */
 @media (max-width: 992px) {
   .section .map-container .text-container {

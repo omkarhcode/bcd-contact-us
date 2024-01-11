@@ -59,29 +59,33 @@
         </div>
         <div class="vl"></div>
         <div class="map-container">
-            <img src="assets/map.png" alt="" class="map">
-            <div class="text-container">
-                <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h4>
-                <p class="links">
-                    <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a> |
-                    <a href="mailto:test1@gmail.com" target="_blank">test1@gmail.com</a> |
-                    <a href="mailto:test2@gmail.com" target="_blank">test2@gmail.com</a>
-                </p>
+            <div class="absolute-container-placeholder"></div>
 
-                <h3>Sales Enquiry</h3>
-                <p class="links">
-                    <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a>
-                    <br>
-                    <a href="mailto:test1@gmail.com" target="_blank">test1@gmail.com</a>
-                </p>
+            <div class="absolute-container">
+                <img src="assets/map.png" alt="" class="map">
+                <div class="text-container">
+                    <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h4>
+                    <p class="links">
+                        <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a> |
+                        <a href="mailto:test1@gmail.com" target="_blank">test1@gmail.com</a> |
+                        <a href="mailto:test2@gmail.com" target="_blank">test2@gmail.com</a>
+                    </p>
+
+                    <h3>Sales Enquiry</h3>
+                    <p class="links">
+                        <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a>
+                        <br>
+                        <a href="mailto:test1@gmail.com" target="_blank">test1@gmail.com</a>
+                    </p>
 
 
-                <h3>Redevelopment Centre</h3>
-                <p class="links">
-                    <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a>
-                    <br>
-                    <a href="mailto:test2@gmail.com" target="_blank">test2@gmail.com</a>
-                </p>
+                    <h3>Redevelopment Centre</h3>
+                    <p class="links">
+                        <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a>
+                        <br>
+                        <a href="mailto:test2@gmail.com" target="_blank">test2@gmail.com</a>
+                    </p>
+                </div>
             </div>
 
 
@@ -143,7 +147,22 @@
 
         </section>
     </footer>
+    <script>
+        // dynamically setting the height of the placeholder to match the height of the .absolute-container.
+        window.onload = function() {
+            var absoluteContainer = document.querySelector('.absolute-container');
+            var placeholder = document.querySelector('.absolute-container-placeholder');
 
+            placeholder.style.height = window.getComputedStyle(absoluteContainer).height;
+        }
+
+        window.onresize = function() {
+            var absoluteContainer = document.querySelector('.absolute-container');
+            var placeholder = document.querySelector('.absolute-container-placeholder');
+
+            placeholder.style.height = window.getComputedStyle(absoluteContainer).height;
+        }
+    </script>
 </body>
 
 </html>
