@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Museo_Slab";
+  font-family: "Museo Slab";
   src: url("../fonts/Museo_Slab_100.otf") format("opentype"),
     url("../fonts/Museo_Slab_100italic.otf") format("opentype"),
     url("../fonts/Museo_Slab_300.otf") format("opentype"),
@@ -25,7 +25,7 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   box-sizing: border-box;
-  font-family: "Museo_Slab", sans-serif;
+  font-family: "Museo Slab", sans-serif;
   color: #3c3c3c;
 }
 
