@@ -253,6 +253,10 @@
   width: 28px;
 }
 
+.overlay a.closebtn:hover {
+  box-shadow: none;
+}
+
 /* BREAKPOINTS */
 @media (max-width: 992px) {
   .section .map-container .absolute-container-placeholder p {
