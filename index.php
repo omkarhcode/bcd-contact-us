@@ -165,11 +165,15 @@
 
             // Calculate the position of the pointer based on the size of the map
             var top = map.offsetHeight * 0.605;
-            var left = map.offsetWidth * 0.303;
+            var left = map.offsetWidth * 0.293;
+            var width = map.offsetWidth * 0.09;
+            var height = map.offsetHeight * 0.09;
 
             // Update the position of the pointer
             pointer.style.top = top + 'px';
             pointer.style.left = left + 'px';
+            pointer.style.width = width + 'px';
+            pointer.style.height = height + 'px';
         }
 
         window.onresize = function() {
@@ -184,11 +188,16 @@
 
             // Calculate the position of the pointer based on the size of the map
             var top = map.offsetHeight * 0.605;
-            var left = map.offsetWidth * 0.303;
+            var left = map.offsetWidth * 0.293;
+            var width = map.offsetWidth * 0.09;
+            var height = map.offsetHeight * 0.09;
 
             // Update the position of the pointer
             pointer.style.top = top + 'px';
             pointer.style.left = left + 'px';
+            pointer.style.width = width + 'px';
+            pointer.style.height = height + 'px';
+
         }
     </script>
 </body>

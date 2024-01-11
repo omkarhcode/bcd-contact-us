@@ -35,8 +35,6 @@
 
 .section .map-container .pointer {
   position: absolute;
-  height: 38px;
-  width: 38px;
 }
 
 .section h3 {
@@ -124,6 +122,9 @@
 
 /* BREAKPOINTS */
 @media (max-width: 992px) {
+  .section .map-container .absolute-container-placeholder p {
+    padding-right: 20px;
+  }
   .section .map-container .text-container {
     padding-left: 20px;
     padding-right: 20px;
@@ -153,7 +154,8 @@
   }
 
   .section .contact-us-container,
-  .section .vl {
+  .section .vl,
+  .section .map-container .absolute-container-placeholder p {
     display: none;
   }
 }
