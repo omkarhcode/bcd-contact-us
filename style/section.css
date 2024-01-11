@@ -132,7 +132,8 @@
 }
 
 .custom-select select,
-.send-enquiry-btn {
+.send-enquiry-btn,
+.overlay .closebtn {
   display: none; /*hide original SELECT element:*/
 }
 
@@ -198,64 +199,6 @@
   position: absolute;
   right: 20px;
 }
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  background-color: rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, 1);
-  overflow-x: hidden;
-  transition: 0.2s;
-  display: flex;
-  justify-content: start;
-  align-items: start;
-}
-.overlay form {
-  padding: 100px 20px 0;
-  width: 100%;
-}
-
-.overlay form#contact-form button[type="submit"] {
-  width: 100%;
-}
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover,
-.overlay a:focus {
-  color: black;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 13px;
-  right: 14px;
-}
-.overlay .closebtn img#close {
-  height: 28px;
-  width: 28px;
-}
-
-.overlay a.closebtn:hover {
-  box-shadow: none;
-}
 
 /* BREAKPOINTS */
 @media (max-width: 992px) {
@@ -311,7 +254,6 @@
     font-weight: normal;
   }
 
-  .section .contact-us-container,
   .section .vl,
   .section .map-container .absolute-container-placeholder p {
     display: none;
@@ -329,6 +271,70 @@
     border: none;
     cursor: pointer;
     margin: 50px 0 70px 0;
+  }
+
+  .section .contact-us-container .hide-on-phone {
+    display: none;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 1);
+    overflow-x: hidden;
+    transition: 0.2s;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .overlay form {
+    padding: 100px 20px 0;
+    width: 100%;
+  }
+
+  .overlay form#contact-form button[type="submit"] {
+    width: 100%;
+  }
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    color: black;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    display: block;
+    top: 13px;
+    right: 14px;
+  }
+  .overlay .closebtn img#close {
+    height: 28px;
+    width: 28px;
+  }
+
+  .overlay a.closebtn:hover {
+    box-shadow: none;
   }
 
   .section .map-container .text-container .links .contacts p {
