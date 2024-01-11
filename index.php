@@ -76,12 +76,14 @@
                 <img src="assets/pointer.svg" alt="" class="pointer">
 
                 <div class="text-container">
-                    <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h4>
-                    <p class="links">
-                        <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a> |
-                        <a href="mailto:test1@gmail.com" target="_blank">test1@gmail.com</a> |
-                        <a href="mailto:test2@gmail.com" target="_blank">test2@gmail.com</a>
-                    </p>
+                    <div class="mobile-absolute">
+                        <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h4>
+                        <p class="links">
+                            <a href="tel:+91 000 0000 000" target="_blank">+91 000 0000 000 </a> |
+                            <a href="mailto:test1@gmail.com" target="_blank">test1@gmail.com</a> |
+                            <a href="mailto:test2@gmail.com" target="_blank">test2@gmail.com</a>
+                        </p>
+                    </div>
 
                     <h3>Sales Enquiry</h3>
                     <p class="links">

@@ -220,6 +220,25 @@
   .section {
     flex-direction: column;
   }
+  .section .map-container .absolute-container-placeholder {
+    z-index: 0;
+  }
+  .section .map-container .map {
+    width: 190%;
+  }
+
+  .section .text-container .mobile-absolute {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    padding: 0 24px 0 24px;
+  }
+
+  .section .text-container .mobile-absolute h4 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: normal;
+  }
 
   .section .contact-us-container,
   .section .vl,
