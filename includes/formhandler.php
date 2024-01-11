@@ -24,6 +24,8 @@ if ($_SESSION['timestamp'] <= time() - 60) {
     $_SESSION['timestamp'] = time();
 }
 
+
+
 // Increment the count
 $_SESSION['count']++;
 
