@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <title>Responsive Nav bar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/global.css">
-    <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/section.css">
-    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/section.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 
 </head>
 
 <body id="body">
     <button onclick="topFunction()" id="scrollToTopBtn" title="Go to top">
-        <img src="assets/scrollToTop.svg" alt="to top">
+        <img src="assets/icons/scrollToTop.svg" alt="to top">
         <p>To the top</p>
     </button>
 
@@ -24,8 +24,8 @@
 
         <input type="checkbox" id="check">
         <label for="check" class="menu-icons">
-            <img src="assets/menu.svg" alt="" id="hamburger">
-            <img src="assets/close.png" alt="" id="close">
+            <img src="assets/icons/menu.svg" alt="" id="hamburger">
+            <img src="assets/icons/close.png" alt="" id="close">
         </label>
 
         <nav class="navbar">
@@ -49,7 +49,7 @@
 
 
             <div id="myForm" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeForm()"><img src="assets/close.png" alt="" id="close"></a>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeForm()"><img src="assets/icons/close.png" alt="" id="close"></a>
                 <form id="contact-form">
                     <!-- <label for="name">Name:</label> -->
                     <input type="text" id="name" name="name" placeholder="Name" required>
@@ -77,8 +77,8 @@
             </div>
 
             <div class="absolute-container">
-                <img src="assets/map.png" alt="" class="map">
-                <img src="assets/pointer.svg" alt="" class="pointer">
+                <img src="assets/images/map.png" alt="" class="map">
+                <img src="assets/icons/pointer.svg" alt="" class="pointer">
 
                 <div class="text-container">
                     <div class="mobile-absolute">
@@ -170,11 +170,11 @@
                 <p>© copyrights <?php echo date("Y"); ?></p>
             </div>
             <div class="flex-item">
-                <a href="https://www.facebook.com" target="_blank"><img src="assets/social-icons/facebook.svg" alt="" id="facebook"></a>
-                <a href="https://www.instagram.com" target="_blank"><img src="assets/social-icons/instagram.svg" alt="" id="instagram"></a>
-                <a href="https://www.linkedin.com" target="_blank"><img src="assets/social-icons/linkedin.svg" alt="" id="linkedin"></a>
-                <a href="https://www.twitter.com" target="_blank"><img src="assets/social-icons/twitter.svg" alt="" id="twitter"></a>
-                <a href="https://www.youtube.com" target="_blank"><img src="assets/social-icons/youtube.svg" alt="" id="youtube"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="assets/icons/social-icons/facebook.svg" alt="" id="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="assets/icons/social-icons/instagram.svg" alt="" id="instagram"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="assets/icons/social-icons/linkedin.svg" alt="" id="linkedin"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="assets/icons/social-icons/twitter.svg" alt="" id="twitter"></a>
+                <a href="https://www.youtube.com" target="_blank"><img src="assets/icons/social-icons/youtube.svg" alt="" id="youtube"></a>
 
             </div>
 
@@ -182,10 +182,10 @@
         </section>
     </footer>
 
-    <script src="js/select.js"></script>
-    <script src="js/map.js"></script>
-    <script src="js/form.js"></script>
-    <script src="js/scrollToTop.js"></script>
+    <script src="assets/js/select.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/scrollToTop.js"></script>
 
 
 
