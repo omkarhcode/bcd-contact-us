@@ -89,7 +89,7 @@ a:hover {
   position: fixed;
   bottom: 100px;
   right: 100px;
-  z-index: 99;
+  z-index: 1;
   border: none;
   outline: none;
   cursor: pointer;
