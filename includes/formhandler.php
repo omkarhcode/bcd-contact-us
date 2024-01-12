@@ -1,7 +1,6 @@
 <?php
 
 // Preventing brute force attacks by blocking the user after 5 submits in less than 1 minute 
-
 session_start();
 
 // Check if the count and timestamp session variables are set
@@ -38,9 +37,31 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $mobile = htmlspecialchars($_POST['mobile']);
     $project = htmlspecialchars($_POST['project']);
 
-    if (empty($name) || empty($email) || empty($mobile) || empty($project)) {
-        header('location: ../index.php');
+
+    // Validate name
+    if (empty($name)) {
+        echo "Name is required";
+        exit;
     }
+
+    // Validate email
+    if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo "Invalid email";
+        exit;
+    }
+
+    // Validate mobile
+    if (empty($mobile) || !preg_match('/^[0-9]{10}$/', $mobile)) {
+        echo "Invalid mobile number";
+        exit;
+    }
+
+    // Validate project
+    if (empty($project)) {
+        echo "Project is required";
+        exit;
+    }
+
 
     echo "These are the data, that user submitted";
     echo "<br>";
@@ -73,6 +94,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     header('location: ../index.php');
     echo 'Form submitted successfully';
 } else {
-    // header('location: ../index.php');
+    header('location: ../index.php');
     echo 'Invalid request';
+    die();
 }
