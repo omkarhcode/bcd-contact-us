@@ -7,10 +7,21 @@ window.onscroll = () => {
 };
 
 function scrollFunction() {
-  mybutton.style.display =
-    document.body.scrollTop > 120 || document.documentElement.scrollTop > 120
-      ? "block"
-      : "none";
+  // mybutton.style.display =
+  //   document.body.scrollTop > 120 || document.documentElement.scrollTop > 120
+  //     ? "block"
+  //     : "none";
+
+  if (
+    document.body.scrollTop > 120 ||
+    document.documentElement.scrollTop > 120
+  ) {
+    mybutton.classList.add("show");
+    // mybutton.style.display = "block";
+  } else {
+    mybutton.classList.remove("show");
+    // mybutton.style.display = "none";
+  }
 }
 
 // When the user clicks on the button, scroll to the top of the document

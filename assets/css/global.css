@@ -85,7 +85,7 @@ a:hover {
 }
 
 #scrollToTopBtn {
-  display: none;
+  /* display: none; */
   position: fixed;
   bottom: 100px;
   right: 100px;
@@ -95,9 +95,12 @@ a:hover {
   cursor: pointer;
   box-shadow: none;
   background-color: transparent;
-  transition: transform 0.3s ease-in-out;
+  opacity: 0;
+  transition: transform 0.3s ease-in-out, opacity 0.5s;
 }
-
+#scrollToTopBtn.show {
+  opacity: 1;
+}
 #scrollToTopBtn p {
   font-family: "Helvetica Neue", sans-serif;
   letter-spacing: 0;
@@ -108,6 +111,7 @@ a:hover {
 #scrollToTopBtn:hover {
   box-shadow: none;
   transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
 }
 
 /* GENERIC */
