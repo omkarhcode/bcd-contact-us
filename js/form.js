@@ -17,7 +17,22 @@ document.getElementById("contact-form").addEventListener("submit", (event) => {
     body: formData,
   })
     .then((response) => response.text())
-    .then((data) => console.log(data))
+    .then((data) => {
+      console.log(data);
+
+      // Clear the form
+      event.target.reset();
+
+      // Manually resetting the custom select
+      const customSelect = document.querySelector(".custom-select");
+      const originalSelect = customSelect.getElementsByTagName("select")[0];
+      const selectedDiv =
+        customSelect.getElementsByClassName("select-selected")[0];
+      originalSelect.selectedIndex = 0; // Reset the original select element
+      selectedDiv.innerHTML = originalSelect.options[0].innerHTML; // Reset the custom select
+
+      alert("Thank you for contacting us. We will get back to you soon.");
+    })
     .catch((error) => {
       console.error("Error:", error);
     });
