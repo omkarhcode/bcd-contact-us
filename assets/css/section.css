@@ -195,7 +195,7 @@
 }
 
 .same-as-selected::after {
-  content: url("../assets/selected.svg");
+  content: url("../assets/icons/selected.svg");
   position: absolute;
   right: 20px;
 }
