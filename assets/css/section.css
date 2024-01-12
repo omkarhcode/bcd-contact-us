@@ -235,6 +235,10 @@
   .section .map-container .absolute-container-placeholder {
     z-index: 0;
   }
+
+  .section .map-container .absolute-container {
+    overflow: hidden;
+  }
   .section .map-container .map {
     width: 190%;
   }
