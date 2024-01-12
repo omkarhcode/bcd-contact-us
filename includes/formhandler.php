@@ -41,24 +41,30 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Validate name
     if (empty($name)) {
         echo "Name is required";
+
+        header('location: ../index.php');
         exit;
     }
 
     // Validate email
     if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         echo "Invalid email";
+        header('location: ../index.php');
         exit;
     }
 
     // Validate mobile
-    if (empty($mobile) || !preg_match('/^[0-9]{10}$/', $mobile)) {
+    // if (empty($mobile) || !preg_match('/^[0-9]{10}$/', $mobile)) {
+    if (empty($mobile)) {
         echo "Invalid mobile number";
+        header('location: ../index.php');
         exit;
     }
 
     // Validate project
     if (empty($project)) {
         echo "Project is required";
+        header('location: ../index.php');
         exit;
     }
 
@@ -78,6 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 
     $con = mysqli_connect('localhost', 'root');
+
 
     if ($con) {
         echo "Connection Successful";
