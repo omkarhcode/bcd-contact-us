@@ -90,7 +90,7 @@
     height: auto;
     width: 100%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.1);
+    background: white;
     backdrop-filter: blur(10px);
     transition: 0.3s;
   }
